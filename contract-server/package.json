@@ -1,0 +1,27 @@
+{
+  "name": "contract-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha -r ts-node/register src/tests/**/*.ts --require ./src/tests/test_helper.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.3",
+    "@types/mocha": "^5.2.0",
+    "immutable": "^3.8.2",
+    "chai": "^4.1.2",
+    "chai-immutable": "^2.0.0-alpha.1",
+    "mocha": "^5.1.1",
+    "ts-node": "^6.0.0",
+    "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "redux": "^4.0.0",
+    "socket.io": "^2.1.0"
+  }
+}
